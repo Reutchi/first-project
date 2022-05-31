@@ -1,0 +1,266 @@
+@media only screen and (min-width: 0) {
+  .container {
+    width: 65%;
+    margin: 0 auto;
+  }
+  header nav {
+    display: none;
+  }
+
+  .change-language {
+    display: none;
+  }
+
+  /* Hamburger menu*/
+  .menu-Item {
+    display: block;
+    margin: 2rem 4rem;
+    font-size: 1.8rem;
+    color: #828282;
+    text-decoration: none;
+  }
+
+  .menuItem:hover {
+    text-decoration: underline;
+  }
+
+  .hamburger {
+    position: fixed;
+    z-index: 100;
+    top: 3rem;
+    right: 3rem;
+    padding: 4px;
+    border: black solid 1px;
+    background: white;
+    cursor: pointer;
+  }
+
+  .closeIcon {
+    display: none;
+  }
+
+  .menu {
+    position: fixed;
+    transform: translateY(-100%);
+    transition: transform 0.2s;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    background: #fff;
+    color: white;
+    list-style: none;
+    padding-top: 4rem;
+    text-align: center;
+  }
+
+  .showMenu {
+    transform: translateY(0);
+  }
+
+  /* Hamburger finish*/
+
+  .author-hab-menu-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  header {
+    margin-top: 20px;
+    justify-content: space-between;
+    align-self: center;
+  }
+
+  .name-author {
+    padding-top: 10px;
+    width: 124px;
+    height: 106px;
+    line-height: 3.625rem;
+    font-size: 2.9375em;
+  }
+
+  .about-author {
+    width: 155px;
+    height: 45px;
+    font-size: 1.125em;
+    line-height: 1.375rem;
+    margin-top: 23px;
+  }
+  /* HEADER SECTION */
+
+  .image2 {
+    display: block;
+  }
+  .image1 {
+    display: none;
+  }
+  .hero {
+    display: none;
+  }
+
+  .image2 {
+    margin: 37px 0 83px 0;
+  }
+
+  .about-hero {
+    width: 100%;
+    padding: 120px 0 250px 0;
+    background-color: #f6f6f6;
+    text-align: center;
+  }
+
+  .about-hero-desc {
+    padding-top: 70px;
+    margin: 30px;
+    font-size: 1.125em;
+  }
+
+  /* HERO SECTION */
+
+  .heading-skills {
+    text-align: center;
+    padding-top: 90px;
+  }
+
+  .icon {
+    margin: 0 auto;
+    padding-top: 24px;
+  }
+  /* Skills Section */
+  .card {
+    margin: 83px;
+  }
+
+  .stars-image {
+    display: inline-flex;
+  }
+  .card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  .card-item {
+    width: 166px;
+    height: 206px;
+    margin: 0 auto;
+  }
+
+  .card-item > p {
+    margin-top: 10px;
+  }
+
+  /* Portofolio Section */
+
+  .portfolio {
+    padding-top: 113px;
+    background: #f6f6f6;
+    text-align: center;
+  }
+
+  .img-porto {
+    display: flex;
+    justify-content: center;
+  }
+
+  .link-portofolio {
+    padding: 45px 0 100px 0;
+    text-decoration: underline;
+  }
+
+  /* footer section */
+  .wrapper-contacts {
+    padding: 114px 0 200px 0;
+    text-align: center;
+  }
+  .footer-social-img {
+    display: flex;
+    justify-content: center;
+  }
+
+  .social-img {
+    margin-left: 30px;
+  }
+  .want-to-know-footer {
+    font-size: 1.125em;
+  }
+  .btn-send-msg {
+    padding: 15px 50px;
+    margin: 35px;
+    background-color: black;
+    color: #fff;
+    border-radius: 25px;
+    font-weight: bold;
+  }
+  .footer-social-img {
+    padding-top: 92px;
+  }
+  .social-search-text-bootom {
+    padding-top: 55px;
+    margin-left: 20px;
+  }
+  .btn-send-msg-mail {
+    color: #fff;
+  }
+  .btn-send-msg-mail:hover {
+    color: #fff;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  #hamb-menu-icon {
+    display: none;
+  }
+
+  header .nav-list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .hamburger,
+  .image2 {
+    display: none;
+  }
+  #header {
+    margin-top: 33px;
+  }
+  .change-language {
+    display: flex;
+    align-items: self-end;
+  }
+
+  .image1 {
+    display: block;
+  }
+
+  .image1 {
+    margin: 50px 40px 104px 0;
+  }
+
+  .wrapper-author {
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+  }
+
+  .about-author {
+    margin-top: 60px;
+  }
+
+  .line {
+    margin-top: 40px;
+    border: 1px solid #828282;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    width: auto;
+  }
+
+  .denis-photo {
+    display: flex;
+    justify-content: center;
+  }
+
+  .card {
+    margin-top: 83px;
+  }
+}
